@@ -1,0 +1,235 @@
+@font-face{
+    font-family: PTSans;
+    src:url(PT_Sans-Web-Regular.ttf)
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(PlayfairDisplay.ttf);
+}
+@font-face{
+    font-family: PTSansNar;
+    src:url(PT_Sans-Narrow-Web-Regular.ttf)
+}
+.content{
+    width: 280px; 
+    padding: 0 20px; 
+
+}
+main{
+    width: 325px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between; 
+    flex-direction: column;
+    
+
+}
+header{
+    width: 325px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+}
+h3{
+    color: #9E8C6C;
+    font-family: Playfair; 
+}
+
+h1{
+    font-family: Playfair bold;
+    font-size: 56px;
+    text-align: center;
+    
+    
+}
+
+.first-text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.h2{
+    font-family: Playfair;
+    font-weight: 800;
+}
+
+p{
+    font-family:  PTSansNar;
+}
+
+footer{
+    width: 325px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.container h3{
+    font-family: PTSansNar;
+}
+header h3{
+    font-family: PTSansNar;
+}
+button{
+    margin: auto;
+    background-color: #0699A6;
+    color: white;
+    border: none;
+    width: 225px;
+    height: 60px;
+
+    
+    
+}
+
+a{
+    color: #0699A6;
+    text-decoration: none;
+}
+
+.pupa{
+    text-align: center;
+    font-family: Playfair;
+    font-size: 30px;
+}
+
+.pupa2{
+    display: flex;
+    font-size: 20px;
+    font-family:  PTSansNar;
+    flex-direction: column;
+    font-weight: 800;
+    
+}
+.date{
+    font-family:  PTSansNar;
+}
+
+.pupa3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.photo1{
+    padding-left: 84px;
+}
+body{
+    margin: auto;
+    padding: auto;
+}
+.otstup{
+    margin-bottom: 50px;
+}
+.part1 h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container h3{
+    text-transform: uppercase;
+}
+
+button{
+    display: flex;
+    font-family:  PTSansNar;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding-bottom: 60px;
+}
+body p{
+    font-size: 18px;
+    font-weight: 400;}
+
+@media (min-width: 768px) {
+    .container {
+        width: 640px;
+        padding: 0px 64px;
+       
+    }
+
+    main{
+        width: 640px;
+        margin: auto;
+        display: flex;
+        justify-content:space-between; 
+        flex-direction: column;
+    }
+ .part1{
+    width: 640px;
+        padding: 0px 64px;
+       
+ }
+}
+
+@media (min-width:1440px){
+    .container{
+        width: 1200px;
+        margin: 20px;
+    }
+    main{
+      width: 1200px;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: auto; 
+      justify-content: space-between; 
+       
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+padding-top: 20px;
+       
+    }
+    .photo1{
+        margin-bottom: 100px;
+        margin-left: -400px;
+        height: 350px;
+    }
+    .jdjd{
+        margin-left: 13px;
+    }
+    .date{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .part1{
+        margin-top: 22px;
+    }
+
+    .pupsik{
+        display: none;
+    }
+    header h1{
+    margin-left: 35px;
+   text-align: left;
+   font-size: 126px;
+   line-height: 100px;
+    }
+    .container h2{
+        font-size: 36px;
+    }
+    .container h3{
+        font-size: 18px;
+        font-family:  PTSansNar;
+    }
+    .part1 h3{
+        font-family: PTSansNar;
+    }
+    body p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+    
